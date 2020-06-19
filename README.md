@@ -28,6 +28,10 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
 2. Explain the difference between a callback and a higher order function.
+1)If a function is declared on a global scope, .this will be available on the window object (top level).
+2)When called on a function, .this always refers to the object left of the dot.
+3)Within constructor scope, .this is attached to object within that scope (not global).
+4)When using call or apply, .this is explicity defined because you can directly see what it's point to on the line itself. e.g. X.Y.call, this would refer to X.
 
 3. What is closure?
 
